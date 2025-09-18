@@ -1,22 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 const App = () => {
-
-useStateSnippet
-
-
-  let user =  "harsh"; //object assignment
-  function abc() {
-    console.log(user);
-    user = " thakur harsh singh";
-    console.log(user);
-  }
-  const a = 5;  //value assignment
-
-  return ( <div>
-    <h1>menu {a}</h1>
-    <h2>products {user} </h2> 
-    <button onClick={abc}>change user</button>
-  </div> );
+  const a = 10;
+  return ( 
+  <div>hello harsh singh {a}</div>
+);
 }
- 
 export default App;

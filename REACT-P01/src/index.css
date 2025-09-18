@@ -7,9 +7,4 @@
 html, body{
   font-family: Arial, sans-serif;
   background-color: red;
-  color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
