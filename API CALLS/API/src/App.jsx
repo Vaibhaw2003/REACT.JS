@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";
 
@@ -8,9 +8,12 @@ const App = () => {
   const getData = async ()=> {
     const response = await axios.get('https://picsum.photos/id/{image_id}/{width}/{height}')
     setData(response.data)
-    console.log(data)
-    
+    console.log(data) 
   }
+
+  useEffect(()=>{
+    getData()
+  }, [])
 
   return ( <>
   <div>
