@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+#nav{
+  display: flex;
+  height: 50px;
+  width: 100%;
+  font-size: 25px;
+  position: relative;
+  padding: 10px;
+  justify-content: space-between;
+  
+}
+#body{
+  display: flex;
+  height: 650px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+  
+
+
+}
+#body img{
+  display: flex;
+  position: relative;
+  align-content: center;
+  height: 500px;
+  width: 600px;
+  border: 2px solid red;
+}
