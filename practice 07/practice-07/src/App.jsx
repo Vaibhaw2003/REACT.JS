@@ -14,14 +14,14 @@ const App = () => {
           <div id='body'>
             <img src="https://tse3.mm.bing.net/th/id/OIP.LEXM9Ey9MqapCpGxmchYSgHaHa?pid=Api&P=0&h=180" alt="" />
             <img src="https://tse3.mm.bing.net/th/id/OIP.LJtUSOSKI6bKCzUvKFNMeQHaEK?pid=Api&P=0&h=180" alt="" />
+            <button>submit</button>
           </div>
 
           <div id='footer'>
-            <footer>
-              <h1></h1>
-              <h1></h1>
-              <h1></h1>
-              <h1></h1>
+            <footer >
+              <h1>tahnks for visit</h1>
+              <h1> contact us</h1>
+              <h1>about</h1>
             </footer>
           </div>
       </>
