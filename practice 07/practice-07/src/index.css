@@ -58,3 +58,9 @@ html, body{
   text-transform: capitalize;
 
 }
+.cards{
+  color: red;
+  padding: 4px;
+  background-color: black;
+
+}

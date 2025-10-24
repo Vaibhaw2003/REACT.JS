@@ -1,4 +1,6 @@
 import React from 'react'
+import Cards from './assets/components/Cards'
+import Navbar from './assets/components/Navbar'
 
 const App = () => {
   return (
@@ -10,6 +12,12 @@ const App = () => {
             <a href="ABOUT">ABOUT</a>
             <a href="CONTACT US">CONTACT US</a>
           </nav>
+
+          <div className='cards'>
+            <Cards />
+            <Cards />
+            <Navbar />
+          </div>
 
           <div id='body'>
             <img src="https://tse3.mm.bing.net/th/id/OIP.LEXM9Ey9MqapCpGxmchYSgHaHa?pid=Api&P=0&h=180" alt="" />
