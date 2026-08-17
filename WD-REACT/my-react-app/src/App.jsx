@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Home from './assets/Components/Home';
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
           <h2 style={{ color: '#61dafb', margin: 0 }}>My React App</h2>
         </div>
         <ul style={{ listStyleType: 'none', display: 'flex', justifyContent: 'space-around', margin: 0, padding: 0 , width: '30%' ,gap: '20px'}}>
-          <li><a href="/" style={{ color: '#61dafb', textDecoration: 'none' }}>Home</a></li>
+          <li><a href="/#Home.jsx" style={{ color: '#61dafb', textDecoration: 'none' }}>Home</a></li>
           <li><a href="/about" style={{ color: '#61dafb', textDecoration: 'none' }}>About</a></li>
           <li><a href="/contact" style={{ color: '#61dafb', textDecoration: 'none' }}>Contact</a></li>
         </ul>
