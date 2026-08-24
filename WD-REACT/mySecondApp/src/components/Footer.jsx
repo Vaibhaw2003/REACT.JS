@@ -7,7 +7,8 @@ const Footer = () => {
         padding: '10px',
         textAlign: 'center',
         height: '100px',
-        boxSizing: 'border-box'
+        boxSizing: 'border-box',
+        marginTop: '80px'
     }}>
         <h1>
             Footer Content

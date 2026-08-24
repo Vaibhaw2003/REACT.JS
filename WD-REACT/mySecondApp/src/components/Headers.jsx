@@ -21,7 +21,11 @@ const Headers = () => {
             display: 'flex',
             gap: '10px'
         }}>
-            <ul>
+            <ul style={{
+                listStyleType: 'none',
+                display: 'flex',
+                gap: '10px'
+            }}>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>

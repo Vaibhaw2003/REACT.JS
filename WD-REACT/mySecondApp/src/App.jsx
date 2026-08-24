@@ -5,13 +5,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div
-      style={{
-        textAlign: 'center',
-        backgroundColor: 'lightgray',
-        minHeight: '100vh'
-      }}
-    >
+    <div>
       <Headers />
       <Body />
       <Footer />

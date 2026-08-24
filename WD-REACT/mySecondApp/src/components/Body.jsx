@@ -14,20 +14,17 @@ const Student = ({ id, name, age, major }) => {
 const Body = () => {
     const bodyStyle = {
         color: 'red',
-        backgroundColor: 'black'
-    }
-    const bodyInfo = {
-        color: 'blue',
-        backgroundColor: 'yellow'
+        backgroundColor: 'black',
+        padding: '10px',
+        textAlign: 'center',
+        minHeight: '10vh'
+
     }
     return (
         <div>
             <h1 style={bodyStyle}>
                 Body Content
             </h1>
-        <p style={bodyInfo}>
-            This is the body content.
-        </p>
             <Student id="student1" name="John Doe" age={20} major="Computer Science" />
     </div>
   )
