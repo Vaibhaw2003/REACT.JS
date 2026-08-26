@@ -13,9 +13,14 @@ const Navbar = () => {
     }}>
         <header style={{
             display:'flex',
-            alignItems:'center'
+            alignItems:'center',
         }}>
-            <h1>
+            <h1 style={{
+                color:'white',
+                backgroundColor:'black',
+                padding:'10px',
+                borderRadius:'5px'
+            }}>
                 Navbar
             </h1>
         </header>
@@ -28,9 +33,9 @@ const Navbar = () => {
                 display:'flex',
                 listStyle:'none'
             }}>
-                <li style={{marginRight:'20px'}}>Home</li>
-                <li style={{marginRight:'20px'}}>About</li>
-                <li style={{marginRight:'20px'}}>Contact</li>
+                <li style={{marginRight:'20px',color:'blue'}}>Home</li>
+                <li style={{marginRight:'20px',color:'blue'}}>About</li>
+                <li style={{marginRight:'20px',color:'blue'}}>Contact</li>
             </ul>
         </nav>
     </div>
