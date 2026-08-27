@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Navbar = () => {
   return (
@@ -8,8 +7,8 @@ const Navbar = () => {
         display:'flex',
         justifyContent:'space-between',
         alignItems:'center',
-        padding:'10px 20px'
-
+        padding:'10px 20px',
+        height:'80px',
     }}>
         <header style={{
             display:'flex',
@@ -33,9 +32,9 @@ const Navbar = () => {
                 display:'flex',
                 listStyle:'none'
             }}>
-                <li style={{marginRight:'20px',color:'blue'}}>Home</li>
-                <li style={{marginRight:'20px',color:'blue'}}>About</li>
-                <li style={{marginRight:'20px',color:'blue'}}>Contact</li>
+                <li style={{marginRight:'20px',color:'black', backgroundColor:'white', padding:'5px 10px', borderRadius:'5px',fontWeight:'bold'}}>Home</li>
+                <li style={{marginRight:'20px',color:'black', backgroundColor:'white', padding:'5px 10px', borderRadius:'5px',fontWeight:'bold'}}>About</li>
+                <li style={{marginRight:'20px',color:'black', backgroundColor:'white', padding:'5px 10px', borderRadius:'5px',fontWeight:'bold'}}>Contact</li>
             </ul>
         </nav>
     </div>
