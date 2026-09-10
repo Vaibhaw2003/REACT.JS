@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './components/Navbar.jsx'
 import './App.css'
+import Home from './components/Home.jsx'
+import Counter from './components/Counter.jsx'
 
 
 const App = () => {
@@ -13,6 +15,11 @@ const App = () => {
         This is a simple React application.
       </p>  
       <Navbar />
+      <div style={{display: 'flex', justifyContent: 'space-around', marginTop: '20px'}}>
+        <Home />
+        <App />
+        <Counter />
+      </div>
     </div>
   )
 }

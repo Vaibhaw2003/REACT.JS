@@ -8,7 +8,7 @@ function reducer(state, action) {
   return state;
 }
 
-function Counter() {
+export default function Counter() {
   const [state, dispatch] = useReducer(reducer, { count: 0 });
 
   return (
