@@ -1,5 +1,7 @@
-
+import './App.css'
 import React, { useState } from 'react'
+import Timer from './components/Timer'
+import Login from './components/Login'
 
 const App = () => {
   const [name, setName] = useState("My App")
@@ -23,7 +25,10 @@ const App = () => {
 
         <button onClick={handleClick}>Submit</button>
       </div>
+      <Timer />
+      <Login />
     </div>
+
   )
 }
 
