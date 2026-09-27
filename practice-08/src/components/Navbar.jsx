@@ -1,49 +1,22 @@
-import React from "react";
 
 const Navbar = () => {
   return (
-    <header className="navbar">
-      <div className="navbar-container">
-        {/* Logo */}
-        <h1 className="navbar-logo">React Practice</h1>
+    <div>
+      <nav className="navbar">
+        <h1 style={
+          {
+            color:"green",
+            background:"black"
+          }
+        }>My React App</h1>
+        <ul style={{ listStyle: 'none', display: 'flex' }} className="nav-links">
+          <li><a href="/" className="navlink">Home</a></li>
+          <li><a href="/about" className="navlink">About</a></li>
+          <li><a href="/contact" className="navlink">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  )
+}
 
-        {/* Navigation Links */}
-        <nav>
-          <ul className="navbar-links">
-            <li>
-              <a
-                href="https://react.dev/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                React Docs
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="https://react.dev/learn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                React Tutorial
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="https://react.dev/community"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Community
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-  );
-};
-
-export default Navbar;
+export default Navbar
