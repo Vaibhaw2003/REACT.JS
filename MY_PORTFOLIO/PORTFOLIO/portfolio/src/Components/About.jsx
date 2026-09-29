@@ -4,8 +4,8 @@ const About = () => {
   return (
     <section
       style={{
-        minHeight: '500px',
-        padding: '60px 20px',
+        height: "800px",
+        padding: '20px',
         backgroundColor: '#f5f7fa',
         display: 'flex',
         justifyContent: 'center',
