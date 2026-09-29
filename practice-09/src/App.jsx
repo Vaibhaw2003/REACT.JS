@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Quotes from './components/Quotes'
+import ImageApi from './components/ImageApi'
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       <>
       <Navbar />
       <Quotes />
+      <ImageApi />
       </>
     </div>
   )
