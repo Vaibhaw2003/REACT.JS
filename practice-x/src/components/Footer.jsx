@@ -1,67 +1,131 @@
-import React from 'react';
-
+import React from "react";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white mt-10">
-      <div className="max-w-7xl mx-auto px-6 py-8">
+    <footer className="bg-gray-950 text-white mt-10">
 
-        {/* Footer Content */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+      {/* Main Footer */}
+      <div className="max-w-7xl mx-auto px-6 py-10">
 
-          {/* Logo / Name */}
-          <h2 className="text-2xl font-bold text-red-500">
-            Tailwind CSS
-          </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-          {/* Footer Links */}
-          <ul className="flex gap-6">
-            <li>
+          {/* Brand */}
+          <div>
+            <h2 className="text-2xl font-bold text-red-500">
+              Tailwind CSS
+            </h2>
+
+            <p className="text-gray-400 mt-3 leading-relaxed">
+              Building modern, responsive and beautiful web interfaces
+              using React and Tailwind CSS.
+            </p>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">
+              Quick Links
+            </h3>
+
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="/"
+                  className="text-gray-400 hover:text-red-500 transition duration-300"
+                >
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/about"
+                  className="text-gray-400 hover:text-red-500 transition duration-300"
+                >
+                  About
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/projects"
+                  className="text-gray-400 hover:text-red-500 transition duration-300"
+                >
+                  Projects
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/contact"
+                  className="text-gray-400 hover:text-red-500 transition duration-300"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Social Links */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">
+              Follow Me
+            </h3>
+
+            <div className="flex gap-4">
+
               <a
-                href="/"
-                className="text-gray-300 hover:text-red-500 transition duration-300"
+                href="https://github.com/Vaibhaw2003"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-gray-800 p-3 rounded-full hover:bg-red-500 transition duration-300"
               >
-                Home
+                <FaGithub size={20} />
               </a>
-            </li>
 
-            <li>
               <a
-                href="/about"
-                className="text-gray-300 hover:text-red-500 transition duration-300"
+                href="https://www.linkedin.com/in/05vaibhaw-singh/"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-gray-800 p-3 rounded-full hover:bg-red-500 transition duration-300"
               >
-                About
+                <FaLinkedin size={20} />
               </a>
-            </li>
 
-            <li>
               <a
-                href="/projects"
-                className="text-gray-300 hover:text-red-500 transition duration-300"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-gray-800 p-3 rounded-full hover:bg-red-500 transition duration-300"
               >
-                Projects
+                <FaInstagram size={20} />
               </a>
-            </li>
 
-            <li>
-              <a
-                href="/contact"
-                className="text-gray-300 hover:text-red-500 transition duration-300"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
+            </div>
+          </div>
+
         </div>
 
-        {/* Copyright */}
-        <div className="border-t border-gray-700 mt-6 pt-5 text-center">
-          <p className="text-gray-400">
-            © 2026 Tailwind CSS. All rights reserved.
+        {/* Bottom Section */}
+        <div className="border-t border-gray-800 mt-8 pt-6 text-center">
+
+          <p className="text-gray-400 text-sm">
+            © 2026{" "}
+            <span className="text-red-500 font-semibold">
+              Tailwind CSS
+            </span>
+            . All rights reserved.
           </p>
+
+          <p className="text-gray-500 text-xs mt-2">
+            Built with ❤️ using React & Tailwind CSS
+          </p>
+
         </div>
 
       </div>
+
     </footer>
   );
 };
