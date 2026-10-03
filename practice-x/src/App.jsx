@@ -27,7 +27,6 @@ const App = () => {
       {isLoggedIn && <Navbar />}
 
       <Routes>
-
         {/* First page */}
         <Route
           path="/"
